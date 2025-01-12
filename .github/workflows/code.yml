@@ -28,7 +28,7 @@ jobs:
 
     - name: Run Training Script
       run: |
-        python your_script.py
+        python DecisionTreeClassifier.py
 
     - name: Log Model to MLflow
       run: |
