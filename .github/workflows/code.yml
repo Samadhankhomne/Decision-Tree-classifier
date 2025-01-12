@@ -32,7 +32,7 @@ jobs:
 
     - name: Log Model to MLflow
       run: |
-        mlflow run . --entry-point DecisionTreeClassifier.py
+        mlflow run . --entry-point Social_Network_Ads.csv
 
     - name: Print Metrics
       run: |
